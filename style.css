@@ -5,6 +5,15 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
+  background-color: #501b15;
+  background-image: conic-gradient(
+      from 330deg at 50% 60%,
+      #8c8c8c 60deg,
+      transparent 60deg
+    ),
+    conic-gradient(from 150deg at 50% 30%, #030504 60deg, transparent 60deg);
+  background-size: 5rem 10rem;
+  background-position: 0 0, 1.5rem -0.5rem;
 }
 
 img {
@@ -15,14 +24,15 @@ img {
 
 h1 {
   font-size: 55px;
-  color: black;
+  color: #c9cbc8;
+  background-color: rgba(0, 0, 0, 0.5);
   line-height: 2;
 }
 
 #countdown {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   font-size: 45px;
-  color: #fff;
+  color: #c9cbc8;
   border-radius: 5px;
 }
