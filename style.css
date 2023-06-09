@@ -16,10 +16,10 @@ body {
   background-position: 0 0, 1.5rem -0.5rem;
 }
 
-img {
-  display: block;
-  padding: 25px;
-  width: 30%;
+.responsive {
+  padding-top: 25px; 
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
